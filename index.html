@@ -1,0 +1,45 @@
+<html>
+     <head>
+         <meta http-equiv="content-type" content="text/html; charset=%CHARSET%" />
+          <title>CU Boulder 2012 Employee Engagement Survey</title>
+			<script>window.jQuery || document.write('<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js">\x3C/script>')</script>
+            <script type="text/javascript" src="//www2.infosurv.com/js/jquery.backstretch.min.js"></script>
+            <script type="text/javascript">
+            $.backstretch("//www2.infosurv.com/images/CU-B/campus02.jpg");
+            </script>
+          <link rel="stylesheet" type="text/css" href="uc-boulder.css">
+     </head>
+     <body>
+        <div id="page-wrapper">
+        <div id="top-line" class="centerer">
+        <img alt="University of Colorado - Boulder" style="margin: 15px;" src="//www2.infosurv.com/images/CU-B/Boulder-one-line-inverted-color.jpg" >
+        </div>
+        <div id="content-block" class="centerer">
+        	<p style="margin-top: 60px; margin-left: 15px;">Please provide your email address in the space provided:
+ 			<p style="margin-bottom: 60px; margin-left: 15px;"><input id="pac" type="text" size="30" maxlength="80"><input type="submit" id="submit">
+        </div>
+        <div id="footer-top" class="centerer"></div>
+        <div id="footer-bottom" class="centerer">
+        <img alt="Presented by Infosurv" style="margin: 5px;" src="//www2.infosurv.com/images/CU-B/Infosurv-Logo-(White-Black)-presented-by.jpg">
+        </div>
+        </div>
+        <script>
+		  (function(url) {
+			var addEventHandler, submit;
+			addEventHandler = function(elem, eventType, handler) {
+			  if (elem.addEventListener) {
+				return elem.addEventListener(eventType, handler, false);
+			  } else if (elem.attachEvent) {
+				return elem.attachEvent('on' + eventType, handler);
+			  }
+			};
+			submit = document.getElementById("submit");
+			return addEventHandler(submit, "click", function() {
+			  var pac;
+			  pac = document.getElementById("pac").value;
+			  return window.location.href = "" + url + "&pac=" + pac;
+			});
+		  })("https://www.feedback.infosurv.com/se.ashx?s=4D441EF021264759");
+		  </script>
+     </body>
+</html>

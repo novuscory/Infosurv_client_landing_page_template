@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* block-level and inline elements */
+body { color:#000000; font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; font-size:1em; margin: 0; }
+table { }
+hr { background:#DDDDDD; border:solid 1px #DDDDDD; color:#DDDDDD; }
+h1 { color:#181BA8; }
+input { }
+a { color:#181BA8; }
+fieldset { border: 0 }
+
+/* general style classes */
+.section-heading { color:#333333; font-weight:bold; font-size:1.2em; }
+.question-heading { color:#000000; font-weight:bold; }
+.question-text { }
+.perseus-link {font-size: x-small;}
+.text-block {}
+.response-set { margin: 5pt 30pt 0pt 30pt; }
+.response-set table thead { }
+.submit-button {margin-left: 10px;}
+.calculated-field { background: #FAFAFA; }
+
+/* choose one/many question styles */
+/* list-anchor is the class used for the labels for choice groups */
+.choice-text {}
+.list-anchor {font-weight: bold;}      
+
+/* table styles */
+.category-row {}
+.anchor-row {}
+.choice-row {}
+.coded-choice {}
+.total-row {font-weight: bold;}
+.odd-row { }
+.even-row { background:#E5EEFB; }
+
+/* table and cell styles for multi-page progress indicator */
+.progress-table { border: solid 1px #000; line-height:13px; width:175px; }
+.completed-cell { background:#D0B87C; }
+.uncompleted-cell { background:#DDDDDD; }
+.progress-labels{ background-color: #F0F0F0; color: #BABABA; font: bold 9px Tahoma, sans-serif; width:175px; }
+.progress-labels td { border: solid 2px #D0D0D0; }
+.progress-text { font-size:.8em; margin-top:5px; }
+
+/* Live Results */
+.QuestionHeading { font-weight: bold; }
+.QuestionText { }
+.ReportElement { font-family: Arial, sans-serif; font-size: 12pt; padding: 15px 0px; width: 98%; }
+.ReportQuestion { font-family: arial, sans-serif; font-size: 12pt; }
+.ReportTable { border: solid 1px #C0C0C0; font-family: Arial, sans-serif; font-size: 10pt; }
+.ReportTable td { border: solid 1px #C0C0C0; }
+.ReportScale { background-color: #DAD5BF; border: none; color: #000000; font: bold 9px Tahoma, sans-serif; }
+.ReportScale td { border: none; }
+.ReportBar { border: solid 1px #C0C0C0; height: 18px; line-height: 18px; }
+.ReportBar td { border: solid 1px #C0C0C0; height: 18px; line-height: 18px; }
+.ReportItemRow { background-color: #FFFFFF; }
+.ReportAltItemRow { background-color: #F8F8F8; }
+.FreqBar { background:#C9B640; border:solid 1px #C9B640 !important; }
+.ReportHeaderRow { background-color: #DAD5BF; color: #000000; font-size: 8pt; height: 24px; }
+.ReportFooterRow { background-color: #DAD5BF; color: #3C4184; font-size: 8pt; height: 24px; }
+.ReportTotal { font-size: 9pt; font-weight: bold; }
+.ReportRowLabel { color: #808080; }
+.FreqBarSelected { background:#df3b22; border:solid 1px #df3b22 !important; }
+.ReportItemRowSelected { background-color: #FFFFFF; font-weight:bold; }
+.ReportAltItemRowSelected { background-color: #F8F8F8; font-weight:bold; }
+.ReportItemCell { }
+.ReportItemCellSelected { font-weight:bold; }
+.email-link { display:inline;font-size:x-small;color:blue;cursor:pointer; }
+.print-link { display:inline;margin-left:15px;font-size:x-small;color:blue;cursor:pointer; }
+.responsesHighlighted { color: red; }
+
+/* Glossary Support */
+.glossary-word { border-bottom-width:1px; border-bottom-style:dashed; cursor:help; } 
+.glossary-tooltip { position:absolute; z-index:999; top: 0; left: 0; visibility: hidden; border:1px solid #999; background-color:Ivory; padding:5px 7px; }
+
+/* Survey Validation */
+.validation-error { color:Red; font-weight:bold; }
+
+/* Theme-specific classes */
+.centerer { width: 900px; margin: 0 auto; }
+#page-wrapper { background-image: url(//www2.infosurv.com/images/CU-B/cuboulder-white25.png); margin: 0 auto; width: 950px; padding-bottom: 25px;}
+#top-line { border-bottom: 4px solid #D0B87C; background: #000; }
+#content-block { background:#FFF; margin: 20px 25px 0px 25px; padding: 10px; width: 880px;}
+#footer-top { background:#262626; padding-top: 30px;}
+#footer-bottom { background: #000; border-top: 4px solid #D0B87C; text-align: right; }
